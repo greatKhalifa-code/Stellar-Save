@@ -430,6 +430,8 @@ impl StellarSaveContract {
     /// This can be used to check if migration is needed.
     pub fn get_storage_version(env: Env) -> u32 {
         migration::get_storage_version(&env)
+    }
+
     /// Updates the global contribution amount limits.
     ///
     /// Only the contract admin can call this function.
