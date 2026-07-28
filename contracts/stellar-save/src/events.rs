@@ -217,10 +217,6 @@ pub struct CycleAdvanced {
     pub advanced_at: u64,
 }
 
-    pub new_cycle: u32,
-    pub advanced_at: u64,
-}
-
 /// Event emitted when a member claims their completion reward.
 #[contracttype]
 #[derive(Clone, Debug, Eq, PartialEq)]
